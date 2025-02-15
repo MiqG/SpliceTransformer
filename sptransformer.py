@@ -6,7 +6,7 @@ import vcf as pyvcf
 from pyensembl import Genome
 import tqdm
 import os
-from tasks_annotate_mutations import SpTransformerDriver, annotate_VCF_general, SNPInterval
+from .tasks_annotate_mutations import SpTransformerDriver, annotate_VCF_general, SNPInterval
 
 
 class Annotator():
