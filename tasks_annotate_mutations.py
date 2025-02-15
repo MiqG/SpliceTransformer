@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 from pyensembl import Genome
 import vcf as pyvcf
-from model.model import SpTransformer
-from model import SpliceAI
+from .model.model import SpTransformer
+from .model import SpliceAI
 
 
 IN_MAP = np.asarray([[0, 0, 0, 0],
